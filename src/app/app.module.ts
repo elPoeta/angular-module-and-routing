@@ -8,10 +8,14 @@ import { ElementsModule } from './elements/elements.module';
 import { CollectionsModule } from './collections/collections.module';
 import { ViewsModule } from './views/views.module';
 import { ModalsModule } from './modals/modals.module';
+import { HomeComponent } from './components/home/home.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
