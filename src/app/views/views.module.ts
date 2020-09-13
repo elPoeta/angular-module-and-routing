@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ViewsRoutingModule } from './views-routing.module';
+import { ViewComponent } from './view/view.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [ViewComponent],
   imports: [
     CommonModule,
     ViewsRoutingModule
