@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { ElementsModule } from './elements/elements.module';
 import { CollectionsModule } from './collections/collections.module';
+import { ViewsModule } from './views/views.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CollectionsModule } from './collections/collections.module';
     BrowserModule,
     AppRoutingModule,
     ElementsModule,
-    CollectionsModule
+    CollectionsModule,
+    ViewsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
