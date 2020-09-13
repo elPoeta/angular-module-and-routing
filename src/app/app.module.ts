@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ElementsModule } from './elements/elements.module';
 import { CollectionsModule } from './collections/collections.module';
 import { ViewsModule } from './views/views.module';
+import { ModalsModule } from './modals/modals.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ViewsModule } from './views/views.module';
     AppRoutingModule,
     ElementsModule,
     CollectionsModule,
-    ViewsModule
+    ViewsModule,
+    ModalsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
