@@ -10,6 +10,9 @@ import { CollectionComponent } from './collection/collection.component';
   imports: [
     CommonModule,
     CollectionsRoutingModule
+  ],
+  exports: [
+    CollectionComponent
   ]
 })
 export class CollectionsModule { }
