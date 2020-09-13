@@ -6,3 +6,6 @@ ng new <name app> --routing
 
 ### Generate Module with routing
 ng g m Module --routing
+
+## Run angular
+ng serve
