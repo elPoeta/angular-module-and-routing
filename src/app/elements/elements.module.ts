@@ -5,6 +5,7 @@ import { ElementsRoutingModule } from './elements-routing.module';
 import { ElementComponent } from "./element/element.component";
 import { PlaceHolderComponent } from './place-holder/place-holder.component';
 import { TimesDirective } from './times.directive';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -12,7 +13,8 @@ import { TimesDirective } from './times.directive';
   declarations: [ElementComponent, PlaceHolderComponent, TimesDirective],
   imports: [
     CommonModule,
-    ElementsRoutingModule
+    ElementsRoutingModule,
+    SharedModule
   ],
   exports: [
     ElementComponent
