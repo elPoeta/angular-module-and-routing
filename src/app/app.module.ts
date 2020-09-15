@@ -4,8 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-
-import { CollectionsModule } from './collections/collections.module';
 import { ViewsModule } from './views/views.module';
 import { ModalsModule } from './modals/modals.module';
 import { HomeComponent } from './components/home/home.component';
@@ -19,7 +17,6 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    CollectionsModule,
     ViewsModule,
     ModalsModule,
     AppRoutingModule

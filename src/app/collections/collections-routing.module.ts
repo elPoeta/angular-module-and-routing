@@ -4,7 +4,7 @@ import { CollectionComponent } from './collection/collection.component';
 
 
 const routes: Routes = [
-  { path: 'collections', component: CollectionComponent }
+  { path: '', component: CollectionComponent }
 ];
 
 @NgModule({
