@@ -5,10 +5,13 @@ import { CollectionsRoutingModule } from './collections-routing.module';
 import { CollectionComponent } from './collection/collection.component';
 import { SharedModule } from '../shared/shared.module';
 import { TableComponent } from './table/table.component';
+import { BiographyComponent } from './biography/biography.component';
+import { CompaniesComponent } from './companies/companies.component';
+import { PartnersComponent } from './partners/partners.component';
 
 
 @NgModule({
-  declarations: [CollectionComponent, TableComponent],
+  declarations: [CollectionComponent, TableComponent, BiographyComponent, CompaniesComponent, PartnersComponent],
   imports: [
     CommonModule,
     CollectionsRoutingModule,
